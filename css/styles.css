@@ -1,0 +1,48 @@
+
+#android{
+height: 400px;
+}
+.projects{
+padding-top:20px;
+}
+
+ul.nav.navbar-nav {
+    display: -webkit-box;
+    list-style-type: none;
+}
+
+ul.nav.navbar-nav li {
+    padding: 10px;
+    display:inline;
+}
+
+
+.form-group{
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+#dev{
+max-height:300px;
+align:left;
+}
+#ondicho{
+background-align:center;
+padding-top:20px;
+  text-align: center;
+  margin: auto;
+
+}
+
+img.card-img-top {
+    max-height: 119px;
+}
+#specialisation{
+padding-top:20px
+}
+.bg-image{
+  background-repeat:no-repeat;
+  background-size: cover;
+ }
+ #col{
+ column-rule-style: dotted;
+ }
