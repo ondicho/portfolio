@@ -1,9 +1,13 @@
 <html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,182 +17,140 @@
     <meta charset="utf-8">
     <title>portfolio</title>
 </head>
-<body text-color="#566573">
-<div class="container" id="nav">
-    <nav class="navbar navbar-default navbar-fixed-top navbar-slide-nav">
-        <div class="container">
-            <div class="navbar-header">
-                <h2>Ondicho</h2>
-            </div>
-            <div id="navbar" class="navbar-slide offcanvas">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
-</div>
-<div class="row">
-<div class="col">
-<div
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Ondicho</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<body text-color="#566573" class="body">
+    <div class="row">
+        <div class="col">
+            <!--<div
         class="bg-image"
         style="
-    background-image: url('images/dev.jpeg');
+    background-image: url('images/me.jpeg');
     height:100vh;
-  "></div></div>
-<div class="col" id="ondicho">
-    Hi, I am Albert Ondicho, A Software developer.
-</div>
-</div>
-    <p id="specialisation"> My areas of specialisation include but are not limited to:</p>
-    <div class="row" id="col" >
-        <div class="col-md-4">
-            <h3>Android application development</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
+  "></div>-->
         </div>
-        <div class="col-md-4">
-            <h3>Website development</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="col" id="ondicho">
+            <center>
+                <h1> Hi,<br><br> I am Albert Ondicho,<br><br> A Software developer.</h1>
+            </center>
         </div>
-        <div class="col-md-4">
-            <h3>Content Management Systems and E-commerce websites</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-
+        <br>
     </div>
-</div>
-<div class="container" id="carousel">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="images/www.png" alt="Websites">
-            </div>
-
-            <div class="item">
-                <img src="images/android_design.png" alt="Mobile Applications">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</div>
-<div class="container" id="projects">
-    <div class="projects">
-        <div class="row">
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/haki.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"> HAKI APP</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/rental.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"> RENTAL MANAGEMENT SYSTEM</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-        </div>
-        <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/recipe.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">FAVORITE RECIPE</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
-<div id="contact">
+   
     <div class="row">
-        <div class="col-md-6">
-            <h2>Social Media</h2>
-
-            <!-- Facebook -->
-            <a class="btn btn-primary" style="background-color: #3b5998;" href="#!" role="button"
-            ><i class="fab fa-facebook-f"></i
-            ></a>
-
-            <!-- Twitter -->
-            <a class="btn btn-primary" style="background-color: #55acee;" href="#!" role="button"
-            ><i class="fab fa-twitter"></i
-            ></a>
-
-            <!-- Google -->
-            <a class="btn btn-primary" style="background-color: #dd4b39;" href="#!" role="button"
-            ><i class="fab fa-google"></i
-            ></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-primary" style="background-color: #ac2bac;" href="#!" role="button"
-            ><i class="fab fa-instagram"></i
-            ></a>
-
-            <!-- Linkedin -->
-            <a class="btn btn-primary" style="background-color: #0082ca;" href="#!" role="button"
-            ><i class="fab fa-linkedin-in"></i
-            ></a>
-
-            <p>If you would like to get in touch with me, please fill out the form on the following form and i will get back to you promptly.</p>
-            <p>Looking forward to working together</p>
-        </div>
-        <div class="col-md-6" >
-            <h2>Get In Touch</h2>
-    <form>
-        <div class="form-group">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" class="form-control" id="name"  placeholder="Name">
+        <p id="specialisation"> My areas of specialisation include but are not limited to:</p>
+        <div class="col">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Android App Development</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
             </div>
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
         </div>
-        <div class="form-group">
-            <label for="phoneNumber">Tel</label>
-            <input type="number" class="form-control" id="phoneNumber"  placeholder="Phone Number">
+        <div class="col">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Website Development</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="subject">Details</label>
-            <textarea class="form-control" id="subject" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+        <div class="col">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">E-Commerce & CMS</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="footer">
+    <br>
+
+    <div class="container" id="projects">
+        <div class="projects">
+            <div class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/haki.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> HAKI APP</h5>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/rental.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title"> RENTAL MANAGEMENT SYSTEM</h5>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/recipe.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">FAVORITE RECIPE</h5>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div id="contact">
+            <h2>Get In Touch</h2>
+            <form>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                    </div>
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Tel</label>
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Details</label>
+                    <textarea class="form-control" id="subject" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="footer">
             <div class="footer-copyright text-center py-3">© 2021 Copyright:Albert Ondicho
-        </footer>
+                </footer>
+            </div>
+        </div>
+    </center>
     </div>
-</div>
-</div>
 </body>
+
 </html>

@@ -1,4 +1,11 @@
-
+.body {
+    /* font-family: 'Pattaya', sans-serif; */
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 10px;
+    /* background-color: #566573; */
+}
 #android{
 height: 400px;
 }
@@ -14,6 +21,7 @@ ul.nav.navbar-nav {
 ul.nav.navbar-nav li {
     padding: 10px;
     display:inline;
+
 }
 
 
@@ -23,14 +31,17 @@ ul.nav.navbar-nav li {
 }
 #dev{
 max-height:300px;
-align:left;
+/* align:left; */
 }
 #ondicho{
-background-align:center;
+/* background-align:center; */
 padding-top:20px;
   text-align: center;
   margin: auto;
-
+  height: 100vh;
+}
+h1{
+    text-align: left;
 }
 
 img.card-img-top {
@@ -45,4 +56,14 @@ padding-top:20px
  }
  #col{
  column-rule-style: dotted;
+ }
+ navbar navbar-fixed-top navbar-slide-nav{
+     background-color: #013240;
+ }
+
+ .card{
+     border-radius: 10px;
+     background: #ffffff;
+     box-shadow: inset 5px 5px 10px #b5b5b5, 
+                 inset -5px -5px 10px #ffffff;
  }
