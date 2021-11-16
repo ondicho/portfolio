@@ -12,6 +12,10 @@ height: 400px;
 .projects{
 padding-top:20px;
 }
+#projects{
+    background-color:#f0f3f4 ;
+    
+}
 
 ul.nav.navbar-nav {
     display: -webkit-box;
@@ -47,9 +51,10 @@ padding-top:20px;
   color: #2982a2;
 
 }
-/* #ondicho h1{
+#ondicho h1{
     margin: 40px;
-} */
+    /* height: 50vh; */
+}
 /* h1{
     text-align: left;
 } */
@@ -78,9 +83,24 @@ padding-top:20px
                  inset -5px -5px 10px #ffffff;
  }
 
+ #contact{
+     background-color: #99a3a4;;
+ }
+
  .color-1 {color: #f0f3f4;}
 .color-2 {color: #cacfd2;}
 .color-3 {color: #99a3a4;}
 .color-4 {color: #00CCCC;}
 .color-5 {color: #95a5a6;}
 .color-6 {color: #2982a2;}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:100px;
+	right:40px;
+	border-radius:50px;
+	text-align:center;
+
+}
