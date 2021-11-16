@@ -131,23 +131,23 @@
     <center>
         <div id="contact">
             <h2>Get In Touch</h2>
-            <form>
+            <form action="https://formspree.io/f/xyylrnzv"  method="POST"> 
                 <div class="form-group">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input type="text" class="form-control" id="name" placeholder="Name" name="Name">
                     </div>
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Email">
+                        placeholder="Email" name="email">
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber">Tel</label>
-                    <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                    <input type="number" class="form-control" id="phoneNumber" placeholder="Phone Number" name="tel">
                 </div>
                 <div class="form-group">
                     <label for="subject">Details</label>
-                    <textarea class="form-control" id="subject" rows="3"></textarea>
+                    <textarea class="form-control" id="subject" rows="3" name="message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
@@ -161,5 +161,20 @@
     </center>
     </div>
 </body>
+<script>
+    function validate(form) {
+    
+        // validation code here ...
+    
+    
+        if(!valid) {
+            alert('Please correct the errors in the form!');
+            return false;
+        }
+        else {
+            return alert('Do you really want to submit the form?');
+        }
+    }
+</script>
 
 </html>
